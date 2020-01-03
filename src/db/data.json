@@ -1,0 +1,45 @@
+{
+  "characters": [
+    {
+      "id": "5f7a7529-8a4e-49d8-bf39-5e1baef1eca6",
+      "age": 88,
+      "name": "Sheev Palpatine",
+      "affiliation": "SITH"
+    },
+    {
+      "id": "0e8012ac-8e18-4418-a767-47a8d06eaadd",
+      "age": 19,
+      "name": "Leia Organa",
+      "affiliation": "NONE",
+      "bestFriend": "07ba3707-57c3-4fd3-a7bb-a2beb2d436d8"
+    },
+    {
+      "id": "07ba3707-57c3-4fd3-a7bb-a2beb2d436d8",
+      "age": 19,
+      "name": "Luke Skywalker",
+      "affiliation": "JEDI",
+      "bestFriend": "abd347f8-12db-4364-be63-79e3547bf712"
+    },
+    {
+      "id": "82fe680f-e6e8-4c46-beb6-3adee4da2b17",
+      "age": 20,
+      "name": "Anakin Skywalker",
+      "affiliation": "JEDI",
+      "bestFriend": "abd347f8-12db-4364-be63-79e3547bf712"
+    },
+    {
+      "id": "abd347f8-12db-4364-be63-79e3547bf712",
+      "age": 35,
+      "name": "Obi-Wan Kenobi",
+      "affiliation": "JEDI",
+      "bestFriend": "82fe680f-e6e8-4c46-beb6-3adee4da2b17"
+    },
+    {
+      "id": "2210202b-8cf2-4229-801c-dd50f5079a33",
+      "age": 27,
+      "name": "Padmé Amidala",
+      "affiliation": "NONE",
+      "bestFriend": "abd347f8-12db-4364-be63-79e3547bf712"
+    }
+  ]
+}

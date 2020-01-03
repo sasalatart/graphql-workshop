@@ -1,0 +1,12 @@
+# import Affiliation, Character, CreateCharacterInput from 'characters.graphql'
+
+directive @auth on FIELD_DEFINITION
+
+type Query {
+  charactersList(affiliation: Affiliation): [Character]!
+  character(id: ID!): Character!
+}
+
+type Mutation {
+  createCharacter(input: CreateCharacterInput!): Character! @auth
+}

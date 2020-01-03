@@ -1,0 +1,20 @@
+enum Affiliation {
+  JEDI
+  SITH
+  NONE
+}
+
+input CreateCharacterInput {
+  age: Int!
+  name: String!
+  affiliation: Affiliation!
+  bestFriend: ID
+}
+
+type Character {
+  id: ID!
+  age: Int!
+  name: String!
+  affiliation: Affiliation!
+  bestFriend: Character
+}
