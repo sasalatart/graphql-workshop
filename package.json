@@ -29,7 +29,7 @@
     "graphql": "^14.5.8",
     "graphql-import": "^0.7.1",
     "graphql-tools": "^4.0.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "lodash-id": "^0.14.0",
     "lowdb": "^1.0.0"
   },
